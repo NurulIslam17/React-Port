@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@0,200;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,400;1,500&family=REM:ital,wght@0,200;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Play:wght@400;700&family=REM:ital,wght@0,200;1,500&display=swap');
+
+/* font-family: 'REM', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Play', sans-serif; */
+
+h1 , a,h3{
+    font-family: 'Play', sans-serif; 
+}
+p{
+    font-family: 'REM', sans-serif
+}
+.p-header{
+    font-size: 20px;
+}
+.hHero {
+  background-image: url("../src/assets/images/img5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+  opacity: 1;
+  height: 75vh;
+}
+.aboutHero {
+  background-image: url("../src/assets/images/img8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+  opacity: .7;
+  height: 50vh;
+}
+.serviceHero {
+  background-image: url("../src/assets/images/img6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+  opacity: .7;
+  height: 50vh;
+}
+.contactHero {
+  background-image: url("../src/assets/images/img4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+  opacity: .7;
+  height: 50vh;
+}
+
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
