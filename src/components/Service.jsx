@@ -1,5 +1,5 @@
 import React from "react";
-import mission  from '../assets/images/img3.jpg';
+import mission  from '../assets/images/service.jpg';
 
 function Service() {
   return (

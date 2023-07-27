@@ -47,10 +47,27 @@ p{
   opacity: .7;
   height: 50vh;
 }
+.contact-section {
+  background-image: url("../src/assets/images/contact-us.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+  opacity: .3;
+  height: 50vh;
+}
 
 .center-div {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.outline_none{
+  outline:none!important;
+  outline-style:none;
+  
+  resize: none;
+}
+.outline_none:focus{
+  box-shadow: none!important;
 }
