@@ -1,10 +1,10 @@
 import React from "react";
 import c1 from "../../assets/images/client1.jpg";
 import c2 from "../../assets/images/client2.jpg";
-// import client_reviews from '../../data/clientReview';
+import client_reviews from '../../data/clientReview';
 
 function CustomerReview() {
-    // console.log(client_reviews);
+    console.log(client_reviews);
   return (
     <>
       <section className=" bg-grey1">
