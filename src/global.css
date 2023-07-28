@@ -24,23 +24,23 @@ p{
   height: 75vh;
 }
 .aboutHero {
-  background-image: url("../src/assets/images/img8.jpg");
+  background-image: url("../src/assets/images/about-us.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover !important;
-  opacity: .7;
+  opacity: .4;
   height: 50vh;
 }
 .serviceHero {
-  background-image: url("../src/assets/images/img6.jpg");
+  background-image: url("../src/assets/images/serv3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover !important;
-  opacity: .7;
+  opacity: .6;
   height: 50vh;
 }
 .contactHero {
-  background-image: url("../src/assets/images/img4.jpg");
+  background-image: url("../src/assets/images/contact-us.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover !important;
@@ -70,4 +70,14 @@ p{
 }
 .outline_none:focus{
   box-shadow: none!important;
+}
+.img-h250{
+  height: 250px;
+}
+
+.img_redius{
+  border-radius: 27% 73% 86% 14% / 44% 67% 33% 56% ;
+}
+.bg-grey1{
+  background-color: rgb(253, 248, 248);
 }

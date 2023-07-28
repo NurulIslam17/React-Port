@@ -7,7 +7,7 @@ function Service() {
       <section className="my-3">
         <div className="container">
           <div className="row">
-            <h3 className="text-center my-2">Servics</h3>
+            <h3 className="text-center my-2">Service</h3>
       
             <div className="col-md-8">
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
