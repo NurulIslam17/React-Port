@@ -1,4 +1,4 @@
-export const client_reviews = [
+export const clientReviews = [
   {
     id: 1,
     image: "jhfvh",

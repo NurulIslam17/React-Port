@@ -4,7 +4,6 @@ import ProfileImgFemale from "../../assets/images/female.jpg";
 import { members } from "../../data/members";
 
 function Member() {
-  console.log(members);
   return (
     <>
       <section className="py-2">
