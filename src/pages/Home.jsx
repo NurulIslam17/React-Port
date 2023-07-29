@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import MissionSec from '../components/Mission'
 import Service from '../components/Service'
 import CustomerReview from '../components/Home/CustomerReview'
+import Faq from '../components/Home/Faq'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <MissionSec/>
         <Service/>
         <CustomerReview/>
+        <Faq/>
         <Footer/>
     </>
   )

@@ -5,7 +5,11 @@
 /* font-family: 'REM', sans-serif; */
 /* font-family: 'Josefin Sans', sans-serif; */
 /* font-family: 'Play', sans-serif; */
-
+.logo{
+  height: 45px;
+  width: 50px;
+  border-radius: 50%;
+}
 h1 , a,h3{
     font-family: 'Play', sans-serif; 
 }
@@ -78,6 +82,9 @@ p{
 .img_redius{
   border-radius: 27% 73% 86% 14% / 44% 67% 33% 56% ;
 }
+.faq-img{
+  border-radius: 81% 19% 86% 14% / 21% 83% 17% 79% ;
+}
 .bg-grey1{
-  background-color: rgb(253, 248, 248);
+  background-color: rgb(218, 218, 218);
 }

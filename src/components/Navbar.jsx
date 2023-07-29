@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import '../../src/global.css'
+import logo from '../../src/assets/images/logo2.PNG'
 
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-0">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <span className="text-danger">Re</span><span className="text-success">Act</span>
+            <img src={logo} alt="" className="logo"/>
+            {/* <span className="text-danger">Re</span><span className="text-success">Act</span> */}
           </a>
           <button
             className="navbar-toggler"
