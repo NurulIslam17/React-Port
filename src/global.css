@@ -51,6 +51,14 @@ p{
   opacity: .7;
   height: 50vh;
 }
+.weatherHero {
+  background-image: url("../src/assets/images/weather.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+  opacity: .7;
+  height: 50vh;
+}
 .contact-section {
   background-image: url("../src/assets/images/contact-us.webp");
   background-repeat: no-repeat;
