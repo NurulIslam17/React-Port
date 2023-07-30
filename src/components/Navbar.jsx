@@ -52,6 +52,11 @@ function Navbar() {
                   Weather
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/crud">
+                  Crud
+                </Link>
+              </li>
 
             </ul>
             <form className="d-flex">

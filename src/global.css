@@ -5,6 +5,15 @@
 /* font-family: 'REM', sans-serif; */
 /* font-family: 'Josefin Sans', sans-serif; */
 /* font-family: 'Play', sans-serif; */
+
+.body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#footer{
+  margin-top: auto;
+}
 .logo{
   height: 45px;
   width: 50px;

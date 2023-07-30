@@ -6,6 +6,9 @@ import Service from './pages/Service';
 import Contact from './pages/Contact';
 import DetailsMenber from './pages/DetailsMenber';
 import WeatherPage from './pages/WeatherPage';
+import Crud from './pages/Crud';
+import CreatePage from './pages/CreatePage';
+
 
 
 
@@ -19,6 +22,8 @@ function App() {
         <Route path='/contacts' element={<Contact/>}/>
         <Route path='/about/:name' element={<DetailsMenber/>}/>
         <Route path='/weather' element={<WeatherPage/>}/>
+        <Route path='/crud' element={<Crud/>}/>
+        <Route path='/create' element={<CreatePage/>}/>
       </Routes>
     </>
   );

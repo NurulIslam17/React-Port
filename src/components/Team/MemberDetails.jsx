@@ -1,6 +1,6 @@
 import React from "react";
 import Male from "../../assets/images/male.png";
-import { useParams, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 function MemberDetails() {
   const location = useLocation();
   const { name, about, institute,profession,contact } = location.state;
