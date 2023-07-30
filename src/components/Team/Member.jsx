@@ -2,6 +2,7 @@ import React from "react";
 import ProfileImgMale from "../../assets/images/male.png";
 import ProfileImgFemale from "../../assets/images/female.jpg";
 import { members } from "../../data/members";
+import { Link } from "react-router-dom";
 
 function Member() {
   return (
@@ -14,9 +15,10 @@ function Member() {
 
           <div className="row my-2">
             {members &&
-              members.map((data, index) => {
+              members.map((data) => {
+                const {id,name,about,contact,institute,profession} = data;
                 return (
-                  <div className="col-md-3 mt-2" key={index}>
+                  <div className="col-md-3 mt-2" key={id}>
                     <div className="card shadow">
                       <img
                         src={
@@ -29,16 +31,16 @@ function Member() {
                         alt="..."
                       />
                       <div className="card-body">
-                        <h5 className="card-title text-center">{data.name}</h5>
+                        <h5 className="card-title text-center">{name}</h5>
                         <h6 className="card-title text-center">
                           {data.profession}
                         </h6>
                         <p className="card-text">
-                          {data.about.slice(0, 70)} {"..."}
+                          {about.slice(0, 70)} {"..."}
                         </p>
-                        <a href="#" className="btn btn-sm btn-info rounded-0">
+                        <Link to={name} state={{ id,name,about,contact,institute,profession }}  className="btn btn-sm btn-info rounded-0">
                           Details
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
